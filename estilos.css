@@ -1,0 +1,189 @@
+header{
+    background-color: mediumaquamarine;
+    font-size: large;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    height: 200px;
+    line-height: 70px;
+    font-size: 25px;
+    align-items: center;
+    padding: 5px;
+}
+.menu a{
+    color: mediumaquamarine;
+}
+
+.enlaces a{
+    font-family: Century Gothic;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.logo img{
+    height: 200px;
+}
+
+.enlaces{
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+}
+.descripcion{
+    background-color: mediumaquamarine;
+    color: white;
+    font-family: Century Gothic ;
+    padding: 30px;
+}
+
+.menu a:hover{
+    background-color: mediumaquamarine;
+    color: white;
+    transition: .5s;
+}
+
+.contenido{
+    height: 700px;
+    background-image: url(recursos/fotomenu.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.descripcion{
+    position: relative;
+    top: 40%;
+}
+footer{
+    background-color: mediumaquamarine;
+    color: white;
+    font-family: Century Gothic ;
+    padding: 30px;
+    margin-top: 20px;
+}
+.recetas{
+    font-family: Century Gothic ;
+    color: mediumaquamarine;
+    align-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.recetas ul{
+    color: white;
+    background-color: mediumaquamarine;
+    align-items: center;
+    padding: 10px;
+}
+.recetas h2{
+    text-align: center;
+}
+.recetas img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.formulario{
+    color: white;
+    font-family: Century Gothic ;
+    align-self: center;
+    background-color: mediumaquamarine;
+    padding: 20px;
+    position: relative;
+    top: 15%;
+}
+
+.contacto{
+    display: flex;
+    color: white;
+    font-family: Century Gothic ;
+    align-self: center;
+    background-color: mediumaquamarine;
+    padding: 20px;
+}
+.contacto address{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+
+}
+
+.contacto img{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.imagen {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+.contenedor {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Century Gothic ;
+    color: mediumaquamarine;
+  }
+
+.imagen a{
+    color: mediumaquamarine;
+}
+
+
+.imagen:hover{
+    opacity: 0.5;
+    transition-duration: .6s;
+}
+
+
+.imagen img{
+    display: inline-block;
+    width: 280px;
+    height: 200px;
+}
+.imagenespostres{
+    display: flex;
+    align-self: center;
+}
+button{
+    background-color: white;
+    color: mediumaquamarine;
+    font-family: Century Gothic ;
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+    font-size: 20;
+}
+
+.ingredientes {
+    float: left;
+    width: 48%;
+    text-align: start;
+    margin: 5px;
+}
+
+.pasos {
+    display: inline-block;
+    width: 48%;
+    margin: 5px;
+}
+
+.linea{
+    height: 3px;
+    background-color: mediumaquamarine;
+}
